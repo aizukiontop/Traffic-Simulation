@@ -1,6 +1,7 @@
 # Traffic-Simulation
 A real-time traffic simulation of a four-way intersection with three lanes per approach, including a dedicated left-turn lane with its own signal. Cars, trucks, buses and motorcycles spawn at a configurable rate and follow each other using the Intelligent Driver Model (IDM). The simulation is rendered in pygame, with live stats for vehicles passed, vehicles present and average vehicles per minute. It also runs as an experiment: every 300 simulated seconds it logs the signal cycle length and vehicles passed to data.csv, then increases the cycle length, so you can analyze how signal timing affects throughput.
 **Repository:** https://github.com/aizukiontop/Traffic-Simulation
+![A screenshot of the main screen](trafficsim_screenshot.jfif)
 
 ## Features
 
